@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Overpass', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  hsl(216, 12%, 8%);
+}
+p{
+    font-size: 15px;
+    color: hsl(217, 12%, 63%)   
+}
+.m1{
+    background-color:  hsl(213, 19%, 18%);
+    height: 40vh;
+    width: 23vw;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5em;
+    border-radius: 25px;
+}
+.st{
+    width: 20px;
+    height: 20px;
+    margin-bottom: 1.3em;
+    border: none;
+    border-radius: 50%;
+    padding: 0.5em;
+    background-color: hsl(213, 19%, 25%);
+}
+.m1h2{
+    color: white;
+    margin-bottom: 0.5em;
+}
+.pa{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5em;
+}
+.m1 ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    border: none;
+    color: hsl(217, 12%, 63%);
+    background-color: hsl(213, 19%, 25%);
+}
+.sub{
+    margin-top: 1.5em;
+    width: 100%;
+    height: 3.5em;
+    border-radius: 30px;
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    color: white;
+}
+.m2{
+    background-color: hsl(213, 19%, 18%);
+    height: 40vh;
+    width: 23vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5em;
+    border-radius: 25px;
+}
+.cel{
+    height: 30%;
+    width: 40%;
+}
+.ys{
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    background-color: hsl(213, 19%, 25%);
+    padding: 0.5em;
+    border-radius: 20px;
+}
+.ysp{
+    display: flex;
+    color: hsl(25, 97%, 53%);
+}
+.m2h{
+    margin-bottom: 0.5em;
+    color: white;
+}
+.pa2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dsc{
+    display: none;
+}
+.btn:hover{
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    cursor: pointer;
+}
+.btn:focus{
+    background-color: hsl(216, 12%, 54%);
+}
+.sub:hover{
+    color: hsl(25, 97%, 53%);
+    background-color: white;
+    cursor: pointer;
+}
